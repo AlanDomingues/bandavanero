@@ -1,0 +1,83 @@
+@import url("./global.css");
+
+.header-bg {
+  background: #111111;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header img {
+  display: block;
+  max-width: 300px;
+  padding: 20px;
+}
+.nav-menu {
+  display: flex;
+  padding: 30px;
+  gap: 20px;
+}
+
+.nav-menu a {
+  font-size: 1.5rem;
+  color: white;
+  padding: 16px 0px;
+}
+
+.nav-menu a:hover {
+  color: black;
+}
+/*Main*/
+.img-principal img {
+  width: 100%;
+  display: block;
+}
+
+/*QUEM SOMOS*/
+.quem-somos {
+  height: 500px;
+}
+
+.quem-somos h1 {
+  padding-top: 40px;
+  text-align: center;
+}
+
+/*Footer*/
+.footer {
+  display: grid;
+  grid-template-columns: 5fr 4fr 4fr;
+  gap: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer-bg {
+  background: #111111;
+}
+.footer img {
+  width: 500px;
+}
+
+.footer-contato a,
+li {
+  color: white;
+}
+.footer-contato li {
+  margin-bottom: 20px;
+}
+
+.redes-sociais img {
+  width: 60px;
+  padding-right: 30px;
+}
+
+.desenvolvido {
+  text-align: center;
+}
