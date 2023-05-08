@@ -78,11 +78,15 @@
 .footer img {
   width: 400px;
 }
+.footer-contato {
+  padding-left: 80px;
+}
 .footer-contato h1 {
   color: white;
 }
 .footer-contato a,
 li {
+  margin-top: 20px;
   color: white;
 }
 .footer-contato li {
@@ -91,9 +95,13 @@ li {
 
 .redes-sociais img {
   width: 60px;
-  padding-right: 30px;
+  margin-top: 20px;
+  padding-right: 20px;
 }
 
+.redes-sociais {
+  padding-left: 40px;
+}
 .redes-sociais h1 {
   color: white;
 }
@@ -106,5 +114,13 @@ li {
 
 @media (min-width: 500px) and (max-width: 830px) {
   .header {
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }
