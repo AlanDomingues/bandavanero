@@ -1,7 +1,7 @@
 @import url("./global.css");
 
 .header-bg {
-  background: #111111;
+  background: #000000;
 }
 
 .header {
@@ -32,7 +32,7 @@
 }
 
 .nav-menu a:hover {
-  color: black;
+  color: #999999;
 }
 /*Main*/
 .img-principal img {
@@ -41,30 +41,46 @@
 }
 
 /*QUEM SOMOS*/
-.quem-somos {
-  height: 500px;
-}
-
 .quem-somos h1 {
+  font-size: 2rem;
   padding-top: 40px;
   text-align: center;
 }
 
+.quem-somos-texto {
+  font-size: 1.25rem;
+  margin-bottom: 60px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /*Footer*/
+
+.footer-bg {
+  background: #000000;
+}
+
 .footer {
+  display: grid;
+  max-width: 1200px;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 120px;
+  /*
   display: grid;
   grid-template-columns: 5fr 4fr 4fr;
   gap: 40px;
   padding-top: 60px;
-  padding-bottom: 60px;
-}
-.footer-bg {
-  background: #111111;
-}
-.footer img {
-  width: 500px;
+  padding-bottom: 60px;*/
 }
 
+.footer img {
+  width: 400px;
+}
+.footer-contato h1 {
+  color: white;
+}
 .footer-contato a,
 li {
   color: white;
@@ -78,6 +94,17 @@ li {
   padding-right: 30px;
 }
 
+.redes-sociais h1 {
+  color: white;
+}
+
 .desenvolvido {
   text-align: center;
+}
+
+/*RESPONSIVO*/
+
+@media (min-width: 500px) and (max-width: 830px) {
+  .header {
+  }
 }
