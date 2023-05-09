@@ -41,6 +41,10 @@
 }
 
 /*QUEM SOMOS*/
+
+.quem-somos-bg {
+  height: 1000px;
+}
 .quem-somos h1 {
   font-size: 2rem;
   padding-top: 40px;
@@ -54,7 +58,26 @@
   margin-left: auto;
   margin-right: auto;
 }
+.banda {
+  max-width: 1200px;
+  display: flex;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.banda h1 {
+  margin-bottom: 40px;
+}
+
+.banda img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  width: 150px;
+  height: 200px;
+  padding: 20px;
+}
 /*Footer*/
 
 .footer-bg {
