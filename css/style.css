@@ -58,14 +58,20 @@
   margin-left: auto;
   margin-right: auto;
 }
+/*BANDA*/
 .banda {
   max-width: 1200px;
-  display: flex;
-  display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
+.banda ul {
+  display: flex;
+}
+
+.banda p {
+  color: #000000;
+}
 .banda h1 {
   margin-bottom: 40px;
 }
@@ -73,11 +79,11 @@
 .banda img {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 40px;
   width: 150px;
   height: 200px;
   padding: 20px;
 }
+
 /*Footer*/
 
 .footer-bg {
