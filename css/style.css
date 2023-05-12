@@ -45,6 +45,7 @@
 .quem-somos-bg {
   height: 1000px;
 }
+
 .quem-somos h1 {
   text-align: center;
   font-size: 2rem;
@@ -151,12 +152,15 @@ h4 {
 @media (min-width: 350px) and (max-width: 1100px) {
   .header {
     display: flex;
-    padding: 20px;
+    padding: -30px;
     align-items: center;
     justify-content: center;
   }
   .header img {
     max-width: 200px;
+  }
+  .nav-menu {
+    gap: 15px;
   }
   .nav-menu li a {
     font-size: 1rem;
