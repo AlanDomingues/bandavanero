@@ -65,6 +65,7 @@
 .a-banda h1 {
   text-align: center;
   font-size: 2rem;
+  margin-bottom: 40px;
 }
 .banda {
   color: black;
@@ -164,6 +165,14 @@ h4 {
   }
   .nav-menu li a {
     font-size: 1rem;
+  }
+  .banda li {
+    padding: 0px;
+  }
+  .banda img {
+    width: 150px;
+    height: 200px;
+    padding-left: 100px;
   }
   .footer {
     display: grid;
