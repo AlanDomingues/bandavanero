@@ -164,7 +164,9 @@ h4 {
     gap: 15px;
   }
   .nav-menu li a {
+    background: #111;
     font-size: 1rem;
+    border-radius: 4px;
   }
   .banda li {
     padding: 0px;
