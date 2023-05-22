@@ -131,6 +131,15 @@ h4 {
 .lista-contatos {
   color: white;
 }
+
+.lista-contatos h1 {
+  padding-bottom: 20px;
+}
+
+.lista-contatos img {
+  width: 60px;
+  padding-left: 10px;
+}
 .redes-sociais img {
   width: 60px;
   margin-top: 20px;
