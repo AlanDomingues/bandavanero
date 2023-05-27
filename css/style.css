@@ -213,12 +213,15 @@ p {
     align-items: center;
     justify-content: center;
   }
+
   .header img {
     max-width: 200px;
   }
+
   .nav-menu {
     gap: 15px;
   }
+
   .nav-menu li a {
     background: #111;
     font-size: 1rem;
@@ -242,9 +245,11 @@ p {
     gap: 40px;
     margin-left: -80px;
   }
+
   .footer img {
     max-width: 300px;
   }
+
   .footer-contato {
     display: block;
     margin-left: -40px;
