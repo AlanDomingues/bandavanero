@@ -54,8 +54,8 @@
 }
 
 .quem-somos-texto {
+  padding: 60px;
   font-size: 1.25rem;
-  margin-bottom: 60px;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -180,6 +180,17 @@ p {
     border-radius: 4px;
   }
 
+  .grupo-integrantes {
+    padding: 0px;
+    justify-content: center;
+  }
+
+  .integrantes img {
+    width: 130px;
+    height: 150px;
+    border-radius: 5px;
+  }
+
   .footer {
     display: grid;
     grid-template-columns: 1fr;
@@ -212,6 +223,17 @@ p {
     background: #111;
     font-size: 1rem;
     border-radius: 4px;
+  }
+
+  .grupo-integrantes {
+    padding: 0px;
+    justify-content: center;
+  }
+
+  .integrantes img {
+    width: 130px;
+    height: 150px;
+    border-radius: 5px;
   }
 
   .footer {
