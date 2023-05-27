@@ -62,17 +62,28 @@
 }
 /*grupo*/
 
+<<<<<<< HEAD
 .grupo-h1 {
+=======
+.h1 {
+>>>>>>> 52d2834a77ad57ed9537c8b35628a88b26f68177
   text-align: center;
   font-size: 2rem;
   margin-bottom: 40px;
+  display: block;
 }
+<<<<<<< HEAD
 .grupo-integrantes {
+=======
+.integrantes {
+  display: block;
+>>>>>>> 52d2834a77ad57ed9537c8b35628a88b26f68177
   display: flex;
   flex-wrap: wrap;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+<<<<<<< HEAD
   padding-bottom: 60px;
 }
 
@@ -80,15 +91,35 @@
   display: flex;
 
   padding: 20px;
+=======
+  padding-bottom: 120px;
+}
+
+.grupo-integrantes img {
+>>>>>>> 52d2834a77ad57ed9537c8b35628a88b26f68177
   width: 150px;
   height: 200px;
 }
 
 .integrantes h4,
+<<<<<<< HEAD
 p {
   box-sizing: border-box;
   margin: 0px;
   text-align: center;
+=======
+span {
+  display: flex;
+  justify-content: center;
+}
+
+.grupo-integrantes {
+  display: grid;
+}
+
+.grupo-integrantes img {
+  padding: 20px;
+>>>>>>> 52d2834a77ad57ed9537c8b35628a88b26f68177
 }
 
 /*Footer*/
@@ -134,7 +165,7 @@ p {
 
 .lista-contatos img {
   width: 60px;
-  padding-left: 10px;
+  padding-left: 15px;
 }
 .redes-sociais img {
   width: 60px;
@@ -177,6 +208,7 @@ p {
     font-size: 1rem;
     border-radius: 4px;
   }
+<<<<<<< HEAD
   .grupo-integrantes {
     margin: 10px;
   }
@@ -186,6 +218,13 @@ p {
     grid-template-columns: 1fr;
     width: 130px;
     height: 150px;
+=======
+  .integrantes {
+  }
+  .grupo-integrantes img {
+    width: 150px;
+    height: 200px;
+>>>>>>> 52d2834a77ad57ed9537c8b35628a88b26f68177
   }
 
   .footer {
