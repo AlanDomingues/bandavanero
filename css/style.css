@@ -217,10 +217,10 @@ p {
   }
 }
 
-@media (min-width: 600px) and (max-width: 1300px) {
+@media (min-width: 600px) and (max-width: 1200px) {
   .footer {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 250px 250px 250px;
     gap: 40px;
     justify-content: center;
   }
