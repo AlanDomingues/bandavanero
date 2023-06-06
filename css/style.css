@@ -104,14 +104,15 @@ p {
   max-width: 1200px;
   margin: 0 auto;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 120px;
+  padding: 100px;
+  justify-items: center;
 }
 
 .footer img {
   width: 400px;
 }
 .footer-contato {
-  padding-left: 80px;
+  padding-left: 40px;
 }
 
 .footer-contato h1 {
@@ -128,10 +129,6 @@ p {
 
 .lista-contatos {
   color: white;
-}
-
-.lista-contatos h1 {
-  padding-bottom: 20px;
 }
 
 .lista-contatos img {
@@ -167,7 +164,7 @@ p {
 
 /*RESPONSIVO*/
 
-@media (min-width: 350px) and (max-width: 1200px) {
+@media (min-width: 280px) and (max-width: 800px) {
   .header {
     display: flex;
     padding: -30px;
@@ -204,7 +201,8 @@ p {
     display: grid;
     grid-template-columns: 1fr;
     gap: 40px;
-    justify-content: center;
+    justify-items: center;
+    padding: 40px;
   }
 
   .footer img {
@@ -223,5 +221,12 @@ p {
     grid-template-columns: 250px 250px 250px;
     gap: 40px;
     justify-content: center;
+    align-items: center;
+  }
+  .footer img {
+    max-width: 240px;
+  }
+  .footer-contato {
+    padding-left: 0px;
   }
 }
