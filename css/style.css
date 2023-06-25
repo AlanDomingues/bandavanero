@@ -26,9 +26,9 @@
 }
 
 .nav-menu a {
-  font-size: 1.25rem;
+  font-size: 1rem;
   color: white;
-  padding: 16px 0px;
+  padding: 20px 0px 16px 0px;
 }
 
 .nav-menu a:hover {
